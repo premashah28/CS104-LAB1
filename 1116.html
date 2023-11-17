@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>
+        CS104 PS Webpage
+    </title>
+</head>
+
+<body>
+
+    <h1 style="color: skyblue; background-color: antiquewhite;">
+        PREMA SHAH
+    </h1>
+
+    <h3 style="color: gray">
+        NJIT, pss28, B.Arch
+    </h3>
+    <hr>
+    <h2 style="color: plum; background-color: gray;">
+
+        ABOUT ME:
+    </h2>
+
+    <p style="color: skyblue">
+        My name is Prema Shah and I am from Monmouth County, NJ.
+        <br> I have a passion for the arts, especially architecture and interior design.
+        <br> I will be studying architecture at NJIT over the next 5 years.
+        <br>My hobbies include writing, cooking, painting, and running.
+        <br>I love coffee, Thai food, and exploring different cultures!
+    </p>
+
+    <img src="/Users/premashah/Desktop/CS 104/Screen Shot 2023-09-25 at 10.46.52 AM.png" alt="picture"> <br>
+
+    <h2 style="color: plum">
+        NJIT HCAD WEBSITE:
+    </h2>
+    <a href="https://design.njit.edu/">NJIT HCAD </a>
+    <hr>
+    <div>
+
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>Education</th>
+                <th>Experience</th>
+                <th>Skills</th>
+            </tr>
+            <tr>
+                <td>hhxhhsi</td>
+                <td>huibhdbd</td>
+                <td>ksabhebrek</td>
+            </tr>
+            <tr>
+                <td>hhxhhsi</td>
+                <td>huibhdbd</td>
+                <td>ksabhebrek</td>
+            </tr>
+            <tr>
+                <td>NJIT</td>
+                <td>Entry Level</td>
+                <td>Photoshop, Rhino</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <hr>
+        <form>
+            <label for="Username">Username</label>
+            <input type="text" placeholder="username">
+            <label for="first name">First Name</label>
+            <input type="text" placeholder="first name">
+            <label for="last name">Last Name</label>
+            <input type="text" placeholder="last name">
+            <label for="Email">email</label>
+            <input type="email" placeholder="email">
+            <input type="radio" name="course"> Math
+            <input type="radio" name="course"> CS
+            <input type="radio" name="course"> Architecture
+            <input type="checkbox" name="course"> Math
+            <input type="checkbox" name="course"> CS
+            <input type="checkbox" name="course"> Architecture
+
+            <input type="submit">
+        </form>
+    </div>
+    <hr>
+    <ul>
+        <li>ARCH 110</li>
+        <li>FYS SEM</li>
+        <li>CS 104</li>
+        <li>ARCH 195</li>
+        <li>ENG 101</li>
+        <li>MATH 107</li>
+    </ul>
+
+    <div>
+        <img src="/Users/premashah/Desktop/CS 104/img1.jpeg" class="img1">
+        <img src="/Users/premashah/Desktop/CS 104/img2.avif" class="img2">
+        <img src="/Users/premashah/Desktop/CS 104/img3.jpeg" class="img3">
+    </div>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <p class="styled-paragraph">This is a sample paragraph with styled text.</p>
+    </body>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <ul>
+            <li><a href="#" class="hover-red">Item 1</a></li>
+            <li><a href="#" class="visited-gray">Item 2</a></li>
+            <li><a href="#" class="active-orange">Item 3</a></li>
+        </ul>
+    </body>
+    
+    <div>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+        <div id="demo" class="collapse">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+
+    </div>
+
+    <script>
+        let num1 = 20;
+        let num2 = 5;
+
+        let sum = num1 + num2;
+        let difference = num1 - num2;
+        let product = num1 * num2;
+
+        console.log("Task 1 Results:");
+        console.log("Sum: " + sum);
+        console.log("Difference: " + difference);
+        console.log("Product: " + product);
+
+        let score = 85;
+
+        function calculateGrade(score) {
+    if (score >= 90) {
+        console.log("Grade: A");
+    } else if (score >= 80 && score < 90) {
+        console.log("Grade: B");
+    } else if (score >= 70 && score < 80) {
+        console.log("Grade: C");
+    } else if (score >= 60 && score < 70) {
+        console.log("Grade: D");
+    } else {
+        console.log("Grade: F");
+    }
+}
+</script>
+</html>
+
+
